@@ -11,10 +11,10 @@ int main() {
         append(&dynarray, i);
         printf("upto %d size %d val %d\n", dynarray.upto, dynarray.size, get(&dynarray, i));
     }
-    for (i = 185; i < 190; i++) {
-        set(&dynarray, i, i+1);
-        printf("i %d val %d\n", i, get(&dynarray, i));
-    }
+//     for (i = 185; i < 190; i++) {
+//         set(&dynarray, i, i+1);
+//         printf("i %d val %d\n", i, get(&dynarray, i));
+//     }
     for (i = 180; i < 182; i++) {
         delete(&dynarray, i);
         printf("i %d val %d upto %d\n", i, get(&dynarray, i), dynarray.upto);

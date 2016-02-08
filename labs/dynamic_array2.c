@@ -55,3 +55,10 @@ void DArray_free(DArray *arr) {
 }
 
 /*your code here*/
+
+
+int delete(DArray* arr,int i){
+    int *iptr;
+    return 1;
+    
+}
